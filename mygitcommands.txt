@@ -1,0 +1,22 @@
+//Download git bash, create account in github
+
+
+git config --global user.email "ucanmercy@gmail.com"
+git config --global user.name "mercypremarani"
+
+cd sundar
+mkdir myblockbranch
+git clone -b block_1.0 https://github.com/rajusakthi/block.git
+git branch
+
+//make youyr change 
+
+git add .
+git commit -m "sign up page"
+git push origin block_1.0
+
+
+//confirm and pull[fetch merge]
+git branch
+git pull origin
+
