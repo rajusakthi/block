@@ -1,0 +1,17 @@
+cd ..
+cd ..
+cd Sundar
+git init
+git clone https://github.com/rajusakthi/block.git
+git branch
+cd block
+git branch
+git branch -a
+git checkout block_3.0
+git checkout block_2.0
+git checkout block_1.0
+git add .
+git commit -m "Responsive screen changes"
+git push origin block_1.0
+
+
